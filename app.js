@@ -11,7 +11,7 @@ nav.addEventListener('click',e=>{if(e.target.closest('a')){nav.classList.remove(
 document.addEventListener('keydown',e=>{if(e.key==='Escape'&&nav.classList.contains('open')){nav.classList.remove('open');menu.setAttribute('aria-expanded','false');menu.focus()}});
 
 
-const calendarDate=new Date();let calendarYear=calendarDate.getFullYear();let calendarMonth=calendarDate.getMonth();
+const calendarDate=new Date();let calendarYear=calendarDate.getFullYear();let calendarMonth=calendarDate.getMonth();let selectedCalendarDate=new Date(calendarYear,calendarMonth,calendarDate.getDate());
 function renderCalendar(){
  const heading=document.querySelector('#calendar-month');if(!heading)return;
  const locale=lang==='fr'?'fr-CA':'en-CA';
@@ -20,11 +20,28 @@ function renderCalendar(){
  const weekdays=Array.from({length:7},(_,i)=>{const d=new Date(2024,0,7+i);return '<th scope="col"><abbr title="'+new Intl.DateTimeFormat(locale,{weekday:'long'}).format(d)+'">'+new Intl.DateTimeFormat(locale,{weekday:'short'}).format(d)+'</abbr></th>'});
  document.querySelector('#calendar-weekdays').innerHTML='<tr>'+weekdays.join('')+'</tr>';
  const offset=new Date(calendarYear,calendarMonth,1).getDay(),count=new Date(calendarYear,calendarMonth+1,0).getDate();let rows='';
- for(let i=0;i<Math.ceil((offset+count)/7)*7;i++){if(i%7===0)rows+='<tr>';const day=i-offset+1;const today=day===calendarDate.getDate()&&calendarMonth===calendarDate.getMonth()&&calendarYear===calendarDate.getFullYear();rows+=day<1||day>count?'<td></td>':'<td'+(today?' aria-current="date"':'')+'><span>'+day+'</span></td>';if(i%7===6)rows+='</tr>'}
+ const now=new Date();
+ for(let i=0;i<Math.ceil((offset+count)/7)*7;i++){
+  if(i%7===0)rows+='<tr>';
+  const day=i-offset+1;
+  const today=day===now.getDate()&&calendarMonth===now.getMonth()&&calendarYear===now.getFullYear();
+  const selected=day===selectedCalendarDate.getDate()&&calendarMonth===selectedCalendarDate.getMonth()&&calendarYear===selectedCalendarDate.getFullYear();
+  const label=new Intl.DateTimeFormat(locale,{dateStyle:'full'}).format(new Date(calendarYear,calendarMonth,day));
+  rows+=day<1||day>count?'<td></td>':'<td><button type="button" class="calendar-day" data-day="'+day+'" aria-label="'+label+'" aria-pressed="'+selected+'"'+(today?' aria-current="date"':'')+'>'+day+'</button></td>';
+  if(i%7===6)rows+='</tr>';
+ }
  document.querySelector('#calendar-days').innerHTML=rows;
+ let selection=document.querySelector('#calendar-selection');
+ if(!selection){selection=document.createElement('div');selection.id='calendar-selection';selection.className='calendar-selection';selection.setAttribute('role','status');selection.setAttribute('aria-live','polite');document.querySelector('.calendar').appendChild(selection);}
+ const selectedLabel=new Intl.DateTimeFormat(locale,{dateStyle:'full'}).format(selectedCalendarDate);
+ selection.replaceChildren();
+ const title=document.createElement('h4');title.textContent=selectedLabel;
+ const message=document.createElement('p');message.textContent=lang==='fr'?'Aucun événement n’est annoncé pour cette date.':'No events have been announced for this date.';
+ selection.append(title,message);
 }
 function moveMonth(amount){const d=new Date(calendarYear,calendarMonth+amount,1);calendarYear=d.getFullYear();calendarMonth=d.getMonth();renderCalendar()}
-document.querySelector('#previous-month')?.addEventListener('click',()=>moveMonth(-1));document.querySelector('#next-month')?.addEventListener('click',()=>moveMonth(1));document.querySelector('#today-month')?.addEventListener('click',()=>{calendarYear=calendarDate.getFullYear();calendarMonth=calendarDate.getMonth();renderCalendar()});
+document.querySelector('#previous-month')?.addEventListener('click',()=>moveMonth(-1));document.querySelector('#next-month')?.addEventListener('click',()=>moveMonth(1));document.querySelector('#today-month')?.addEventListener('click',()=>{const today=new Date();calendarYear=today.getFullYear();calendarMonth=today.getMonth();selectedCalendarDate=new Date(calendarYear,calendarMonth,today.getDate());renderCalendar()});
+document.querySelector('#calendar-days')?.addEventListener('click',event=>{const button=event.target.closest('button[data-day]');if(!button)return;const day=Number(button.dataset.day);selectedCalendarDate=new Date(calendarYear,calendarMonth,day);renderCalendar();document.querySelector('#calendar-days button[data-day="'+day+'"]').focus({preventScroll:true});});
 setLanguage(lang);
 
 const photoLinks=Array.from(document.querySelectorAll('[data-photo-index]'));
