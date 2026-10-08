@@ -167,12 +167,30 @@
   };
 
   function normalise(value) {
-    return value.toLowerCase().replace(/[’']/g, '').replace(/[^a-z0-9]+/g, ' ').trim();
+    const aliases = {
+      'deaf hear alberta': 'deaf and hear alberta',
+      'the canadian hearing society': 'canadian hearing services',
+      'voice for hearing impaired children': 'voice for deaf and hard of hearing children',
+      'international committee of sports for the deaf comite international des sports des sourds': 'international committee of sports for the deaf',
+      '811 health link': 'health link'
+    };
+    const key = value.normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase().replace(/&/g, ' and ').replace(/[’']/g, '').replace(/[^a-z0-9]+/g, ' ').trim();
+    return aliases[key] || key;
   }
 
   function addEntry(list, entry, existingNames) {
     const key = normalise(entry.name);
-    if (existingNames.has(key)) return;
+    if (existingNames.has(key)) {
+      const existing = Array.from(list.children).find(item => normalise(item.querySelector('.connection-name').textContent) === key);
+      const body = existing.querySelector('a') || existing;
+      if (entry.url && body.tagName === 'A' && key !== 'deaf youth canada') body.href = entry.url;
+      if (entry.contact) {
+        let contact = body.querySelector('.connection-contact');
+        if (!contact) { contact = document.createElement('span'); contact.className = 'connection-contact'; body.appendChild(contact); }
+        contact.textContent = entry.contact;
+      }
+      return;
+    }
 
     const item = document.createElement('li');
     const isLinked = Boolean(entry.url);
@@ -187,11 +205,6 @@
       }
     }
 
-    const category = document.createElement('span');
-    category.className = 'connection-category';
-    category.textContent = entry.category;
-    body.appendChild(category);
-
     const name = document.createElement('span');
     name.className = 'connection-name';
     name.textContent = entry.name;
@@ -199,7 +212,7 @@
 
     if (entry.contact) {
       const contact = document.createElement('span');
-      contact.className = 'connection-url';
+      contact.className = 'connection-contact';
       contact.textContent = entry.contact;
       body.appendChild(contact);
     }
@@ -219,8 +232,34 @@
         return normalise(node.textContent);
       }));
       communityDirectoryEntries[region].forEach(function (entry) {
+        // The national crisis line is listed once, in the National panel.
+        if (region === 'prairies' && entry.name === '24/7 Suicide Prevention') return;
         addEntry(list, entry, existingNames);
       });
+      const names = {
+        'The Canadian Hearing Society': 'Canadian Hearing Services',
+        'Voice for Hearing Impaired Children': 'VOICE for Deaf and Hard of Hearing Children',
+        'Alberta School For the Deaf': 'Alberta School for the Deaf',
+        'Deaf Hear Alberta': 'Deaf & Hear Alberta',
+        'Deaf Youth Hub': 'Deaf Youth HUB',
+        'Vancouver Costal Health, Deaf Well Being Program': 'Vancouver Coastal Health, Deaf Well Being Program',
+        'World Federation of the Deaf-Youth Section': 'World Federation of the Deaf – Youth Section',
+        'European Union of the Deaf- Youth Section': 'European Union of the Deaf – Youth Section'
+      };
+      Array.from(list.children).forEach(function (item) {
+        const name = item.querySelector('.connection-name');
+        name.textContent = names[name.textContent] || name.textContent;
+        const link = item.querySelector('a');
+        if (name.textContent === 'Deaf Youth Canada' && link) link.href = 'index.html';
+        if (link) {
+          let label = item.querySelector('.connection-url');
+          if (!label) { label = document.createElement('span'); label.className = 'connection-url'; link.appendChild(label); }
+          label.dataset.en = link.getAttribute('href').startsWith('tel:') ? 'Call service' : 'Visit website';
+          label.dataset.fr = link.getAttribute('href').startsWith('tel:') ? 'Appeler le service' : 'Consulter le site';
+          label.textContent = label.dataset[document.documentElement.lang === 'fr' ? 'fr' : 'en'];
+        }
+      });
+      Array.from(list.children).sort((a, b) => a.querySelector('.connection-name').textContent.localeCompare(b.querySelector('.connection-name').textContent, 'en', { sensitivity: 'base' })).forEach(item => list.appendChild(item));
       const count = panel.querySelector('.resource-count');
       if (count) count.textContent = list.children.length;
     });
