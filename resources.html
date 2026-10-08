@@ -4,9 +4,10 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Resources | DYC / JSC</title>
-<meta name="description" content="External resources for Deaf youth, including CAD-ASC connections across Canada and international organizations.">
+<meta name="description" content="External resources for Deaf youth, including community organizations, support services, education, and accessibility resources across Canada and beyond.">
 <link rel="icon" type="image/png" href="favicon.png">
-<link rel="stylesheet" href="style.css?v=6979a5a">
+<link rel="stylesheet" href="style.css?v=resources-directory-1">
+<script src="directory-resources.js" defer></script>
 <script src="app.js" defer></script>
 </head>
 <body data-title-en="Resources | DYC / JSC" data-title-fr="Ressources | DYC / JSC">
@@ -58,13 +59,12 @@
     </div>
     <div class="connections-directory">
       <div class="directory-heading">
-        <p class="eyebrow" data-en="CAD-ASC CONNECTIONS" data-fr="CONNEXIONS DE L’ASC-CAD">CAD-ASC CONNECTIONS</p>
+        <p class="eyebrow" data-en="COMMUNITY RESOURCE DIRECTORY" data-fr="RÉPERTOIRE DE RESSOURCES COMMUNAUTAIRES">COMMUNITY RESOURCE DIRECTORY</p>
         <h2 data-en="Find community resources by region." data-fr="Trouvez des ressources communautaires par région.">Find community resources by region.</h2>
-        <p data-en="Explore the local, provincial, national, and international organizations listed in CAD-ASC’s Connections directory. Select a region to view its resources." data-fr="Explorez les organismes locaux, provinciaux, nationaux et internationaux répertoriés dans le répertoire Connexions de l’ASC-CAD. Sélectionnez une région pour voir ses ressources.">Explore the local, provincial, national, and international organizations listed in CAD-ASC’s Connections directory. Select a region to view its resources.</p>
-        <p class="directory-source"><span data-en="Source:" data-fr="Source :">Source:</span> <a href="https://cad-asc.ca/information-hub/connections/" target="_blank" rel="noopener noreferrer" data-en="CAD-ASC Connections" data-fr="Connexions de l’ASC-CAD">CAD-ASC Connections</a></p>
+        <p data-en="Explore local, provincial, national, and international organizations, services, and programs that can support Deaf youth, families, and allies. Select a region to view its resources." data-fr="Explorez les organismes, services et programmes locaux, provinciaux, nationaux et internationaux qui peuvent soutenir les jeunes Sourds, les familles et les alliés. Sélectionnez une région pour voir les ressources.">Explore local, provincial, national, and international organizations, services, and programs that can support Deaf youth, families, and allies. Select a region to view its resources.</p>
       </div>
 
-      <details class="resource-region" open>
+      <details class="resource-region" data-resource-region="national" open>
         <summary><span class="region-title" data-en="National" data-fr="National">National</span><span class="resource-count">13</span></summary>
         <ul class="connection-list">
           <li><a href="https://www.anac.ca/" target="_blank" rel="noopener noreferrer"><span class="connection-name">Acoustic Neuroma Association of Canada</span><span class="connection-url">anac.ca</span></a></li>
@@ -83,7 +83,7 @@
         </ul>
       </details>
 
-      <details class="resource-region">
+      <details class="resource-region" data-resource-region="atlantic">
         <summary><span class="region-title" data-en="Atlantic" data-fr="Atlantique">Atlantic</span><span class="resource-count">10</span></summary>
         <ul class="connection-list">
           <li><a href="http://www.apsea.ca/" target="_blank" rel="noopener noreferrer"><span class="connection-name">Atlantic Provinces Special Education Authority</span><span class="connection-url">apsea.ca</span></a></li>
@@ -92,33 +92,33 @@
           <li><a href="http://mapsli.ca/" target="_blank" rel="noopener noreferrer"><span class="connection-name">Maritime Association of Professional Sign Language Interpreters (MAPSLI)</span><span class="connection-url">mapsli.ca</span></a></li>
           <li><a href="http://www.deafculturecentre.ca/" target="_blank" rel="noopener noreferrer"><span class="connection-name">Nova Scotia Cultural Society of the Deaf</span><span class="connection-url">deafculturecentre.ca</span></a></li>
           <li><a href="http://nlad.org/" target="_blank" rel="noopener noreferrer"><span class="connection-name">Newfoundland and Labrador Association of the Deaf</span><span class="connection-url">nlad.org</span></a></li>
-          <li class="is-unlinked"><span class="connection-name">Nova Scotia Deaf Sports Association</span><span class="connection-status" data-en="No public link listed on the CAD-ASC page" data-fr="Aucun lien public indiqué sur la page de l’ASC-CAD">No public link listed on the CAD-ASC page</span></li>
-          <li class="is-unlinked"><span class="connection-name">Saint John Deaf and Hard of Hearing Services, Inc.</span><span class="connection-status" data-en="No public link listed on the CAD-ASC page" data-fr="Aucun lien public indiqué sur la page de l’ASC-CAD">No public link listed on the CAD-ASC page</span></li>
+          <li class="is-unlinked"><span class="connection-name">Nova Scotia Deaf Sports Association</span><span class="connection-status" data-en="No public link is listed" data-fr="Aucun lien public n’est indiqué">No public link is listed</span></li>
+          <li class="is-unlinked"><span class="connection-name">Saint John Deaf and Hard of Hearing Services, Inc.</span><span class="connection-status" data-en="No public link is listed" data-fr="Aucun lien public n’est indiqué">No public link is listed</span></li>
           <li><a href="http://www.sdhhns.org/" target="_blank" rel="noopener noreferrer"><span class="connection-name">Society of Deaf and Hard of Hearing Nova Scotians</span><span class="connection-url">sdhhns.org</span></a></li>
           <li><a href="https://nbdhhs.com:451/" target="_blank" rel="noopener noreferrer"><span class="connection-name">South-East Deaf and Hard of Hearing Services</span><span class="connection-url">nbdhhs.com</span></a></li>
         </ul>
       </details>
 
-      <details class="resource-region">
+      <details class="resource-region" data-resource-region="quebec">
         <summary><span class="region-title" data-en="Québec" data-fr="Québec">Québec</span><span class="resource-count">26</span></summary>
         <ul class="connection-list">
           <li><a href="http://adoo.ca/" target="_blank" rel="noopener noreferrer"><span class="connection-name">Association de l’Ouïe de l’Outaouais</span><span class="connection-url">adoo.ca</span></a></li>
-          <li class="is-unlinked"><span class="connection-name">Association des gais et lesbiennes Sourds (AGLS)</span><span class="connection-status" data-en="No public link listed on the CAD-ASC page" data-fr="Aucun lien public indiqué sur la page de l’ASC-CAD">No public link listed on the CAD-ASC page</span></li>
+          <li class="is-unlinked"><span class="connection-name">Association des gais et lesbiennes Sourds (AGLS)</span><span class="connection-status" data-en="No public link is listed" data-fr="Aucun lien public n’est indiqué">No public link is listed</span></li>
           <li><a href="http://www.adsmq.org/" target="_blank" rel="noopener noreferrer"><span class="connection-name">Association des DevenusSourds et des Malentendants du Quebec</span><span class="connection-url">adsmq.org</span></a></li>
-          <li class="is-unlinked"><span class="connection-name">Association des personnes vivant avec unesurdité de Laval (APVSL)</span><span class="connection-status" data-en="No public link listed on the CAD-ASC page" data-fr="Aucun lien public indiqué sur la page de l’ASC-CAD">No public link listed on the CAD-ASC page</span></li>
+          <li class="is-unlinked"><span class="connection-name">Association des personnes vivant avec unesurdité de Laval (APVSL)</span><span class="connection-status" data-en="No public link is listed" data-fr="Aucun lien public n’est indiqué">No public link is listed</span></li>
           <li><a href="http://www.sourdestrie.com/" target="_blank" rel="noopener noreferrer"><span class="connection-name">Association des Sourds de l’Estrie</span><span class="connection-url">sourdestrie.com</span></a></li>
           <li><a href="http://sourdsquebec.com/" target="_blank" rel="noopener noreferrer"><span class="connection-name">Association des Sourds du Québec</span><span class="connection-url">sourdsquebec.com</span></a></li>
           <li><a href="http://asuq.powweb.com/" target="_blank" rel="noopener noreferrer"><span class="connection-name">Association du Syndrome de Usher du Québec</span><span class="connection-url">asuq.powweb.com</span></a></li>
           <li><a href="http://www.assq.org/" target="_blank" rel="noopener noreferrer"><span class="connection-name">Association Sportive des Sourds du Quebec</span><span class="connection-url">assq.org</span></a></li>
           <li><a href="http://www.surdite.org/fr/" target="_blank" rel="noopener noreferrer"><span class="connection-name">Centre de communication adaptée</span><span class="connection-url">surdite.org</span></a></li>
           <li><a href="http://www.ccsmm.net/" target="_blank" rel="noopener noreferrer"><span class="connection-name">Centre de la communuaté sourde du Montréal métropolitain</span><span class="connection-url">ccsmm.net</span></a></li>
-          <li class="is-unlinked"><span class="connection-name">Centre des loisirs des Sourds de Montréal Inc.</span><span class="connection-status" data-en="No public link listed on the CAD-ASC page" data-fr="Aucun lien public indiqué sur la page de l’ASC-CAD">No public link listed on the CAD-ASC page</span></li>
-          <li class="is-unlinked"><span class="connection-name">Centre Québécois pour la déficience auditive</span><span class="connection-status" data-en="No public link listed on the CAD-ASC page" data-fr="Aucun lien public indiqué sur la page de l’ASC-CAD">No public link listed on the CAD-ASC page</span></li>
+          <li class="is-unlinked"><span class="connection-name">Centre des loisirs des Sourds de Montréal Inc.</span><span class="connection-status" data-en="No public link is listed" data-fr="Aucun lien public n’est indiqué">No public link is listed</span></li>
+          <li class="is-unlinked"><span class="connection-name">Centre Québécois pour la déficience auditive</span><span class="connection-status" data-en="No public link is listed" data-fr="Aucun lien public n’est indiqué">No public link is listed</span></li>
           <li><a href="http://www.cineall.tv/" target="_blank" rel="noopener noreferrer"><span class="connection-name">Cinéall Production des Sourds</span><span class="connection-url">cineall.tv</span></a></li>
-          <li class="is-unlinked"><span class="connection-name">Coalition Sida des Sourds du Québec</span><span class="connection-status" data-en="No public link listed on the CAD-ASC page" data-fr="Aucun lien public indiqué sur la page de l’ASC-CAD">No public link listed on the CAD-ASC page</span></li>
+          <li class="is-unlinked"><span class="connection-name">Coalition Sida des Sourds du Québec</span><span class="connection-status" data-en="No public link is listed" data-fr="Aucun lien public n’est indiqué">No public link is listed</span></li>
           <li><a href="http://lucien-page.csdm.ca/programmes/eleves-sourds/" target="_blank" rel="noopener noreferrer"><span class="connection-name">École Lucien-Pagé</span><span class="connection-url">lucien-page.csdm.ca</span></a></li>
           <li><a href="http://www.fondationdessourds.net/" target="_blank" rel="noopener noreferrer"><span class="connection-name">Foundation des Sourds du Quebéc</span><span class="connection-url">fondationdessourds.net</span></a></li>
-          <li class="is-unlinked"><span class="connection-name">Groupe de recherché sur la LSQ et le bilinguisme sourd’ de l’Université du Québec à Montréal (UQAM)</span><span class="connection-status" data-en="No public link listed on the CAD-ASC page" data-fr="Aucun lien public indiqué sur la page de l’ASC-CAD">No public link listed on the CAD-ASC page</span></li>
+          <li class="is-unlinked"><span class="connection-name">Groupe de recherché sur la LSQ et le bilinguisme sourd’ de l’Université du Québec à Montréal (UQAM)</span><span class="connection-status" data-en="No public link is listed" data-fr="Aucun lien public n’est indiqué">No public link is listed</span></li>
           <li><a href="http://www.raymond-dewar.qc.ca" target="_blank" rel="noopener noreferrer"><span class="connection-name">Institute Raymond-Dewar</span><span class="connection-url">raymond-dewar.qc.ca</span></a></li>
           <li><a href="https://www.casourdrivesud.org/alpha-sourd-rivesud/" target="_blank" rel="noopener noreferrer"><span class="connection-name">Le Centre Alpha-Sourd Rive Sud</span><span class="connection-url">casourdrivesud.org</span></a></li>
           <li><a href="http://www.raphrca.org/indexFr.asp?numero=35" target="_blank" rel="noopener noreferrer"><span class="connection-name">Le Regroupement des Sourds de Chaudière-Appalaches</span><span class="connection-url">raphrca.org</span></a></li>
@@ -131,10 +131,10 @@
         </ul>
       </details>
 
-      <details class="resource-region">
+      <details class="resource-region" data-resource-region="ontario">
         <summary><span class="region-title" data-en="Ontario" data-fr="Ontario">Ontario</span><span class="resource-count">23</span></summary>
         <ul class="connection-list">
-          <li class="is-unlinked"><span class="connection-name">Association ontarienne des Sourd(e)s francophones</span><span class="connection-status" data-en="No public link listed on the CAD-ASC page" data-fr="Aucun lien public indiqué sur la page de l’ASC-CAD">No public link listed on the CAD-ASC page</span></li>
+          <li class="is-unlinked"><span class="connection-name">Association ontarienne des Sourd(e)s francophones</span><span class="connection-status" data-en="No public link is listed" data-fr="Aucun lien public n’est indiqué">No public link is listed</span></li>
           <li><a href="https://www.bellevilleassociationofthedeaf.org/" target="_blank" rel="noopener noreferrer"><span class="connection-name">Belleville Association of the Deaf</span><span class="connection-url">bellevilleassociationofthedeaf.org</span></a></li>
           <li><a href="http://www.chs.ca/" target="_blank" rel="noopener noreferrer"><span class="connection-name">Canadian Hearing Services</span><span class="connection-url">chs.ca</span></a></li>
           <li><a href="http://www.ccjl.ca" target="_blank" rel="noopener noreferrer"><span class="connection-name">Consortium Centre Jules-Léger</span><span class="connection-url">ccjl.ca</span></a></li>
@@ -160,7 +160,7 @@
         </ul>
       </details>
 
-      <details class="resource-region">
+      <details class="resource-region" data-resource-region="prairies">
         <summary><span class="region-title" data-en="Prairies" data-fr="Prairies">Prairies</span><span class="resource-count">18</span></summary>
         <ul class="connection-list">
           <li><a href="https://www.albertadeaf.ca/" target="_blank" rel="noopener noreferrer"><span class="connection-name">Alberta Association of the Deaf</span><span class="connection-url">albertadeaf.ca</span></a></li>
@@ -176,7 +176,7 @@
           <li><a href="http://www.dlr-consulting.ca/" target="_blank" rel="noopener noreferrer"><span class="connection-name">DLR Consulting</span><span class="connection-url">dlr-consulting.ca</span></a></li>
           <li><a href="http://efdeafblind.wix.com/efdeafblind#!history/c1c4" target="_blank" rel="noopener noreferrer"><span class="connection-name">Edmonton Fellowship of the Deaf Blind</span><span class="connection-url">efdeafblind.wix.com</span></a></li>
           <li><a href="http://www.deafmanitoba.org/p/manitoba-deaf-association.html" target="_blank" rel="noopener noreferrer"><span class="connection-name">Manitoba Deaf Association</span><span class="connection-url">deafmanitoba.org</span></a></li>
-          <li class="is-unlinked"><span class="connection-name">Manitoba Deaf-Blind Association</span><span class="connection-status" data-en="No public link listed on the CAD-ASC page" data-fr="Aucun lien public indiqué sur la page de l’ASC-CAD">No public link listed on the CAD-ASC page</span></li>
+          <li class="is-unlinked"><span class="connection-name">Manitoba Deaf-Blind Association</span><span class="connection-status" data-en="No public link is listed" data-fr="Aucun lien public n’est indiqué">No public link is listed</span></li>
           <li><a href="http://www.mavli.com/" target="_blank" rel="noopener noreferrer"><span class="connection-name">Manitoba Association of Visual Language Interpreters</span><span class="connection-url">mavli.com</span></a></li>
           <li><a href="https://www.manitobapossible.ca/" target="_blank" rel="noopener noreferrer"><span class="connection-name">Manitoba Possible</span><span class="connection-url">manitobapossible.ca</span></a></li>
           <li><a href="http://www.sdhhs.com/" target="_blank" rel="noopener noreferrer"><span class="connection-name">Saskatchewan Deaf and Hard of Hearing Services Inc.</span><span class="connection-url">sdhhs.com</span></a></li>
@@ -184,7 +184,7 @@
         </ul>
       </details>
 
-      <details class="resource-region">
+      <details class="resource-region" data-resource-region="bc">
         <summary><span class="region-title" data-en="British Columbia" data-fr="Colombie-Britannique">British Columbia</span><span class="resource-count">14</span></summary>
         <ul class="connection-list">
           <li><a href="https://popdhh.ca/resources/bc-deaf-community/" target="_blank" rel="noopener noreferrer"><span class="connection-name">British Columbia Cultural Society of the Deaf</span><span class="connection-url">popdhh.ca</span></a></li>
@@ -193,7 +193,7 @@
           <li><a href="http://www.bcfamilyhearing.com/" target="_blank" rel="noopener noreferrer"><span class="connection-name">British Columbia Family Hearing Resource Centre</span><span class="connection-url">bcfamilyhearing.com</span></a></li>
           <li><a href="https://www.facebook.com/BCRAD.YVR/" target="_blank" rel="noopener noreferrer"><span class="connection-name">British Columbia Rainbow Alliance of the Deaf</span><span class="connection-url">facebook.com</span></a></li>
           <li><a href="http://south.sd41.bc.ca/" target="_blank" rel="noopener noreferrer"><span class="connection-name">Burnaby South Secondary School</span><span class="connection-url">south.sd41.bc.ca</span></a></li>
-          <li class="is-unlinked"><span class="connection-name">DeafBC</span><span class="connection-status" data-en="No public link listed on the CAD-ASC page" data-fr="Aucun lien public indiqué sur la page de l’ASC-CAD">No public link listed on the CAD-ASC page</span></li>
+          <li class="is-unlinked"><span class="connection-name">DeafBC</span><span class="connection-status" data-en="No public link is listed" data-fr="Aucun lien public n’est indiqué">No public link is listed</span></li>
           <li><a href="http://www.deafchildren.bc.ca/" target="_blank" rel="noopener noreferrer"><span class="connection-name">Deaf Children’s Society of BC</span><span class="connection-url">deafchildren.bc.ca</span></a></li>
           <li><a href="http://www.fndc.ca/" target="_blank" rel="noopener noreferrer"><span class="connection-name">Family Network for Deaf Children</span><span class="connection-url">fndc.ca</span></a></li>
           <li><a href="http://www.idhhc.ca/" target="_blank" rel="noopener noreferrer"><span class="connection-name">Island Deaf and Hard of Hearing Centre</span><span class="connection-url">idhhc.ca</span></a></li>
@@ -204,7 +204,7 @@
         </ul>
       </details>
 
-      <details class="resource-region">
+      <details class="resource-region" data-resource-region="international">
         <summary><span class="region-title" data-en="International organizations" data-fr="Organisations internationales">International organizations</span><span class="resource-count">9</span></summary>
         <ul class="connection-list">
           <li><a href="https://deafaustralia.org.au/#:~:text=What%20We%20Do-,About%20Deaf%20Australia,as%20their%20language%20of%20preference." target="_blank" rel="noopener noreferrer"><span class="connection-name">Deaf Australia</span><span class="connection-url">deafaustralia.org.au</span></a></li>
