@@ -46,6 +46,7 @@ nav a[aria-current="page"]{color:var(--red);text-decoration:underline;text-under
 /* In-page CAD-ASC connections directory */
 .resource-subheading{margin:0 0 4px;color:var(--red);font-size:.78rem;font-weight:800;letter-spacing:.12em;text-transform:uppercase}
 .connections-directory{grid-column:1/-1;margin-top:28px}
+.resources{row-gap:52px}
 .directory-heading{max-width:820px;margin-bottom:28px}
 .directory-heading h2{margin-bottom:14px}
 .directory-heading>p:not(.eyebrow):not(.directory-source){max-width:760px;color:var(--muted);margin:0}
