@@ -42,3 +42,34 @@ nav a[aria-current="page"]{color:var(--red);text-decoration:underline;text-under
 .volunteer-contact{margin-top:28px}
 
 .who-mission{margin-top:56px;padding-top:40px;border-top:1px solid #dde2e9;scroll-margin-top:130px}
+
+/* In-page CAD-ASC connections directory */
+.resource-subheading{margin:0 0 4px;color:var(--red);font-size:.78rem;font-weight:800;letter-spacing:.12em;text-transform:uppercase}
+.connections-directory{grid-column:1/-1;margin-top:28px}
+.directory-heading{max-width:820px;margin-bottom:28px}
+.directory-heading h2{margin-bottom:14px}
+.directory-heading>p:not(.eyebrow):not(.directory-source){max-width:760px;color:var(--muted);margin:0}
+.directory-source{margin:15px 0 0;color:var(--muted);font-size:.9rem}
+.directory-source a{font-weight:700;color:var(--ink);text-underline-offset:4px}
+.directory-source a:hover{color:var(--red)}
+.resource-region{background:#fff;border:1px solid #d8dee8;border-radius:12px;margin-top:14px;overflow:hidden;box-shadow:0 2px 8px #1420390d}
+.resource-region>summary{display:flex;align-items:center;justify-content:space-between;gap:20px;padding:20px 22px;cursor:pointer;list-style:none;font-weight:800;transition:background .2s,color .2s}
+.resource-region>summary::-webkit-details-marker{display:none}
+.resource-region>summary::after{content:'+';display:grid;place-items:center;width:27px;height:27px;border:1px solid #cbd1dc;border-radius:50%;font-size:1.25rem;font-weight:400;line-height:1;color:var(--navy);flex:0 0 auto}
+.resource-region[open]>summary{background:var(--navy);color:#fff}
+.resource-region[open]>summary::after{content:'−';border-color:#fff;color:#fff}
+.resource-region>summary:hover{background:#eef2f7}
+.resource-region[open]>summary:hover{background:var(--navy)}
+.region-title{font-size:1.2rem;letter-spacing:-.02em}
+.resource-count{margin-left:auto;border:1px solid #cbd1dc;border-radius:99px;padding:2px 10px;color:var(--muted);font-size:.78rem;line-height:1.4;font-weight:700}
+.resource-region[open] .resource-count{border-color:#657089;color:#fff}
+.connection-list{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px;margin:0;padding:20px;list-style:none}
+.connection-list li{min-width:0}
+.connection-list a,.connection-list .is-unlinked{display:flex;flex-direction:column;justify-content:center;min-height:78px;padding:14px 16px;border:1px solid #e0e4eb;border-radius:9px;text-decoration:none;background:#fff;transition:border-color .2s,box-shadow .2s,transform .2s}
+.connection-list a:hover{border-color:var(--red);box-shadow:0 5px 14px #14203916;transform:translateY(-2px)}
+.connection-name{font-size:1rem;line-height:1.35;font-weight:700}
+.connection-url{margin-top:5px;color:var(--red);font-size:.78rem;line-height:1.3;overflow-wrap:anywhere}
+.connection-status{margin-top:6px;color:var(--muted);font-size:.78rem;line-height:1.35}
+.connection-list .is-unlinked{background:#f7f8fa}
+.connection-list .is-unlinked .connection-name{color:#3f4858}
+@media(max-width:760px){.connections-directory{margin-top:18px}.connection-list{grid-template-columns:1fr;padding:14px}.resource-region>summary{padding:17px 16px}.region-title{font-size:1.08rem}.resource-count{margin-left:auto}.connection-list a,.connection-list .is-unlinked{min-height:70px}}
