@@ -1,4 +1,4 @@
-const legacyRoutes={'#about':'about.html','#community':'community.html','#leadership':'board.html','#resources':'get-involved.html','#contact':'contact.html'};if((location.pathname.endsWith('/')||location.pathname.endsWith('index.html'))&&legacyRoutes[location.hash]){location.replace(legacyRoutes[location.hash]);}
+const legacyRoutes={'#about':'about.html','#community':'community.html','#leadership':'board.html','#resources':'resources.html','#contact':'contact.html'};if((location.pathname.endsWith('/')||location.pathname.endsWith('index.html'))&&legacyRoutes[location.hash]){location.replace(legacyRoutes[location.hash]);}
 const languageButton=document.querySelector('#language');
 const menu=document.querySelector('.menu');
 const nav=document.querySelector('#nav');
