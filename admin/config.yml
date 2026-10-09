@@ -1,0 +1,24 @@
+# Development-only CMS configuration. Do not deploy to production until OAuth and review permissions are configured.
+backend:
+  name: github
+  repo: Derek-Nichols/dyc-jsc
+  branch: feature/cms-integration
+media_folder: assets/uploads
+public_folder: /assets/uploads
+publish: false
+collections:
+  - name: board
+    label: Board Members (Pilot)
+    label_singular: Board Member
+    folder: content/board
+    create: true
+    extension: json
+    format: json
+    slug: "{{slug}}"
+    fields:
+      - { label: Name, name: name, widget: string }
+      - { label: Position (English), name: position_en, widget: string }
+      - { label: Position (French), name: position_fr, widget: string }
+      - { label: Photo, name: photo, widget: image, required: false }
+      - { label: Display order, name: order, widget: number, value_type: int, default: 1 }
+      - { label: Visible, name: visible, widget: boolean, default: true }
