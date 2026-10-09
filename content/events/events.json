@@ -1,3 +1,13 @@
 {
-  "events": []
+  "events": [
+    {
+      "date": "",
+      "title_en": "",
+      "title_fr": "",
+      "description_en": "",
+      "description_fr": "",
+      "url": "",
+      "visible": true
+    }
+  ]
 }
