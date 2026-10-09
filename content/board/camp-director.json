@@ -1,0 +1,9 @@
+{
+  "name": "Norbert Makula",
+  "position_en": "Camp Director",
+  "position_fr": "Directeur du camp",
+  "photo": "assets/board/camp-director.png",
+  "alt": "Norbert Makula — Camp Director / Directeur du camp. Creating the experience / Créer l’expérience.",
+  "order": 8,
+  "visible": true
+}
