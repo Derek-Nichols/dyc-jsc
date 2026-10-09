@@ -1,0 +1,226 @@
+{
+  "sections": [
+    {
+      "key": "text-1",
+      "label": "A — Skip to content",
+      "en": "Skip to content",
+      "fr": "Aller au contenu"
+    },
+    {
+      "key": "text-2",
+      "label": "SPAN — Deaf youth. Connected across Canada.",
+      "en": "Deaf youth. Connected across Canada.",
+      "fr": "Les jeunes Sourds. Unis partout au Canada."
+    },
+    {
+      "key": "text-3",
+      "label": "BUTTON — Menu",
+      "en": "Menu",
+      "fr": "Menu"
+    },
+    {
+      "key": "text-4",
+      "label": "A — Home",
+      "en": "Home",
+      "fr": "Accueil"
+    },
+    {
+      "key": "text-5",
+      "label": "SPAN — About us",
+      "en": "About us",
+      "fr": "À propos"
+    },
+    {
+      "key": "text-6",
+      "label": "A — Who We Are",
+      "en": "Who We Are",
+      "fr": "Qui nous sommes"
+    },
+    {
+      "key": "text-7",
+      "label": "A — Bylaws",
+      "en": "Bylaws",
+      "fr": "Règlements"
+    },
+    {
+      "key": "text-8",
+      "label": "A — Board",
+      "en": "Board",
+      "fr": "Conseil"
+    },
+    {
+      "key": "text-9",
+      "label": "A — CDYLC",
+      "en": "CDYLC",
+      "fr": "CLJSC"
+    },
+    {
+      "key": "text-10",
+      "label": "A — Memories",
+      "en": "Memories",
+      "fr": "Souvenirs"
+    },
+    {
+      "key": "text-11",
+      "label": "SPAN — More",
+      "en": "More",
+      "fr": "Plus"
+    },
+    {
+      "key": "text-12",
+      "label": "A — Get Involved",
+      "en": "Get Involved",
+      "fr": "Participer"
+    },
+    {
+      "key": "text-13",
+      "label": "A — Resources",
+      "en": "Resources",
+      "fr": "Ressources"
+    },
+    {
+      "key": "text-14",
+      "label": "A — Become a Member",
+      "en": "Become a Member",
+      "fr": "Devenir membre"
+    },
+    {
+      "key": "text-15",
+      "label": "A — Contact Us",
+      "en": "Contact Us",
+      "fr": "Nous joindre"
+    },
+    {
+      "key": "text-16",
+      "label": "A — Home",
+      "en": "Home",
+      "fr": "Accueil"
+    },
+    {
+      "key": "text-17",
+      "label": "SPAN — Board",
+      "en": "Board",
+      "fr": "Conseil"
+    },
+    {
+      "key": "text-18",
+      "label": "P — 03 / YOUTH LEADERSHIP",
+      "en": "03 / YOUTH LEADERSHIP",
+      "fr": "03 / LE LEADERSHIP DES JEUNES"
+    },
+    {
+      "key": "text-19",
+      "label": "H1 — Meet the board members.",
+      "en": "Meet the board members.",
+      "fr": "Notre conseil d’administration."
+    },
+    {
+      "key": "text-20",
+      "label": "P — Our board brings together leadership, community representation, a",
+      "en": "Our board brings together leadership, community representation, and creative voices to support Deaf youth.",
+      "fr": "Notre conseil d’administration réunit leadership, représentation communautaire et créativité pour soutenir les jeunes Sourds."
+    },
+    {
+      "key": "text-21",
+      "label": "P — President",
+      "en": "President",
+      "fr": "Président"
+    },
+    {
+      "key": "text-22",
+      "label": "P — Vice President",
+      "en": "Vice President",
+      "fr": "Vice-présidente"
+    },
+    {
+      "key": "text-23",
+      "label": "P — Treasurer",
+      "en": "Treasurer",
+      "fr": "Trésorier"
+    },
+    {
+      "key": "text-24",
+      "label": "P — Secretary",
+      "en": "Secretary",
+      "fr": "Secrétaire"
+    },
+    {
+      "key": "text-25",
+      "label": "P — Creative Director",
+      "en": "Creative Director",
+      "fr": "Directeur artistique"
+    },
+    {
+      "key": "text-26",
+      "label": "P — Francophone Director",
+      "en": "Francophone Director",
+      "fr": "Directrice francophone"
+    },
+    {
+      "key": "text-27",
+      "label": "P — Indigenous Director",
+      "en": "Indigenous Director",
+      "fr": "Directrice autochtone"
+    },
+    {
+      "key": "text-28",
+      "label": "P — Camp Director",
+      "en": "Camp Director",
+      "fr": "Directeur du camp"
+    },
+    {
+      "key": "text-29",
+      "label": "P — National Youth Director",
+      "en": "National Youth Director",
+      "fr": "Directrice nationale de la jeunesse"
+    },
+    {
+      "key": "text-30",
+      "label": "P — By youth. For youth. About youth.",
+      "en": "By youth. For youth. About youth.",
+      "fr": "Par, pour et à propos des jeunes."
+    },
+    {
+      "key": "text-31",
+      "label": "SPAN — Operated under",
+      "en": "Operated under",
+      "fr": "Sous l’égide de"
+    },
+    {
+      "key": "text-32",
+      "label": "A — CAD-ASC",
+      "en": "CAD-ASC",
+      "fr": "l’ASC-CAD"
+    },
+    {
+      "key": "text-33",
+      "label": "SPAN — Charitable Registration Number: 108075003RR0001",
+      "en": "Charitable Registration Number: 108075003RR0001",
+      "fr": "Numéro d’enregistrement d’organisme de bienfaisance : 108075003RR0001"
+    },
+    {
+      "key": "text-34",
+      "label": "SPAN — © 2026 DYC / JSC. All rights reserved.",
+      "en": "© 2026 DYC / JSC. All rights reserved.",
+      "fr": "© 2026 DYC / JSC. Tous droits réservés."
+    },
+    {
+      "key": "text-35",
+      "label": "A — Terms and Conditions",
+      "en": "Terms and Conditions",
+      "fr": "Conditions d’utilisation"
+    },
+    {
+      "key": "text-36",
+      "label": "A — Privacy Policy",
+      "en": "Privacy Policy",
+      "fr": "Politique de confidentialité"
+    },
+    {
+      "key": "text-37",
+      "label": "A — Back to top",
+      "en": "Back to top",
+      "fr": "Retour en haut"
+    }
+  ]
+}
