@@ -17,7 +17,7 @@ Messages still go through FormSubmit to dycjsc@gmail.com. JavaScript sets the th
 
 - `index.html`: homepage and calendar layout.
 - `about.html`: Who We Are, history, and mission.
-- `board.html`, `bylaws.html`, `community.html`, `memories.html`: board, inline bylaws reader, camp, and gallery.
+- `board.html`, `bylaws.html`, `cdylc.html`, `memories.html`: board, inline bylaws reader, camp, and gallery.
 - `get-involved.html`, `membership.html`, `contact.html`: participation pages.
 - `terms.html`, `privacy.html`: bilingual policy pages.
 - `app.js`: language switching, calendar, dropdowns, gallery, bylaws reader, and contact redirect.
