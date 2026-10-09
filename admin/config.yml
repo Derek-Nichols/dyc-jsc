@@ -225,6 +225,11 @@ collections:
           - label: Events
             name: events
             widget: list
+            min: 0
+            allow_add: true
+            allow_remove: true
+            collapsed: true
+            hint: "Remove an event using the delete control on its list item, then save and publish the changes. You can leave the list empty."
             summary: "{{fields.date}} — {{fields.title_en}}"
             fields:
               - { label: Date, name: date, widget: datetime, date_format: YYYY-MM-DD, time_format: false, format: YYYY-MM-DD }
