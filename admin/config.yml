@@ -56,3 +56,157 @@ collections:
               - { label: Section, name: label, widget: string, required: false }
               - { label: English, name: en, widget: text }
               - { label: French, name: fr, widget: text }
+      - name: board
+        label: Board
+        file: content/pages/board.json
+        fields:
+          - label: Bilingual text
+            name: sections
+            widget: list
+            collapsed: true
+            summary: "{{fields.label}}"
+            fields:
+              - { label: Section key, name: key, widget: hidden }
+              - { label: Section, name: label, widget: string, required: false }
+              - { label: English, name: en, widget: text }
+              - { label: French, name: fr, widget: text }
+      - name: bylaws
+        label: Bylaws
+        file: content/pages/bylaws.json
+        fields:
+          - label: Bilingual text
+            name: sections
+            widget: list
+            collapsed: true
+            summary: "{{fields.label}}"
+            fields:
+              - { label: Section key, name: key, widget: hidden }
+              - { label: Section, name: label, widget: string, required: false }
+              - { label: English, name: en, widget: text }
+              - { label: French, name: fr, widget: text }
+      - name: community
+        label: Community
+        file: content/pages/community.json
+        fields:
+          - label: Bilingual text
+            name: sections
+            widget: list
+            collapsed: true
+            summary: "{{fields.label}}"
+            fields:
+              - { label: Section key, name: key, widget: hidden }
+              - { label: Section, name: label, widget: string, required: false }
+              - { label: English, name: en, widget: text }
+              - { label: French, name: fr, widget: text }
+      - name: contact-thanks
+        label: Contact Thanks
+        file: content/pages/contact-thanks.json
+        fields:
+          - label: Bilingual text
+            name: sections
+            widget: list
+            collapsed: true
+            summary: "{{fields.label}}"
+            fields:
+              - { label: Section key, name: key, widget: hidden }
+              - { label: Section, name: label, widget: string, required: false }
+              - { label: English, name: en, widget: text }
+              - { label: French, name: fr, widget: text }
+      - name: contact
+        label: Contact
+        file: content/pages/contact.json
+        fields:
+          - label: Bilingual text
+            name: sections
+            widget: list
+            collapsed: true
+            summary: "{{fields.label}}"
+            fields:
+              - { label: Section key, name: key, widget: hidden }
+              - { label: Section, name: label, widget: string, required: false }
+              - { label: English, name: en, widget: text }
+              - { label: French, name: fr, widget: text }
+      - name: get-involved
+        label: Get Involved
+        file: content/pages/get-involved.json
+        fields:
+          - label: Bilingual text
+            name: sections
+            widget: list
+            collapsed: true
+            summary: "{{fields.label}}"
+            fields:
+              - { label: Section key, name: key, widget: hidden }
+              - { label: Section, name: label, widget: string, required: false }
+              - { label: English, name: en, widget: text }
+              - { label: French, name: fr, widget: text }
+      - name: membership
+        label: Membership
+        file: content/pages/membership.json
+        fields:
+          - label: Bilingual text
+            name: sections
+            widget: list
+            collapsed: true
+            summary: "{{fields.label}}"
+            fields:
+              - { label: Section key, name: key, widget: hidden }
+              - { label: Section, name: label, widget: string, required: false }
+              - { label: English, name: en, widget: text }
+              - { label: French, name: fr, widget: text }
+      - name: memories
+        label: Memories
+        file: content/pages/memories.json
+        fields:
+          - label: Bilingual text
+            name: sections
+            widget: list
+            collapsed: true
+            summary: "{{fields.label}}"
+            fields:
+              - { label: Section key, name: key, widget: hidden }
+              - { label: Section, name: label, widget: string, required: false }
+              - { label: English, name: en, widget: text }
+              - { label: French, name: fr, widget: text }
+      - name: privacy
+        label: Privacy
+        file: content/pages/privacy.json
+        fields:
+          - label: Bilingual text
+            name: sections
+            widget: list
+            collapsed: true
+            summary: "{{fields.label}}"
+            fields:
+              - { label: Section key, name: key, widget: hidden }
+              - { label: Section, name: label, widget: string, required: false }
+              - { label: English, name: en, widget: text }
+              - { label: French, name: fr, widget: text }
+      - name: resources
+        label: Resources
+        file: content/pages/resources.json
+        fields:
+          - label: Bilingual text
+            name: sections
+            widget: list
+            collapsed: true
+            summary: "{{fields.label}}"
+            fields:
+              - { label: Section key, name: key, widget: hidden }
+              - { label: Section, name: label, widget: string, required: false }
+              - { label: English, name: en, widget: text }
+              - { label: French, name: fr, widget: text }
+      - name: terms
+        label: Terms
+        file: content/pages/terms.json
+        fields:
+          - label: Bilingual text
+            name: sections
+            widget: list
+            collapsed: true
+            summary: "{{fields.label}}"
+            fields:
+              - { label: Section key, name: key, widget: hidden }
+              - { label: Section, name: label, widget: string, required: false }
+              - { label: English, name: en, widget: text }
+              - { label: French, name: fr, widget: text }
