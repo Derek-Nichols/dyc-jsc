@@ -210,3 +210,23 @@ collections:
               - { label: Section, name: label, widget: string, required: false }
               - { label: English, name: en, widget: text }
               - { label: French, name: fr, widget: text }
+
+  - name: events
+    label: Events Calendar
+    files:
+      - name: events
+        label: Calendar Events
+        file: content/events/events.json
+        fields:
+          - label: Events
+            name: events
+            widget: list
+            summary: "{{fields.date}} — {{fields.title_en}}"
+            fields:
+              - { label: Date, name: date, widget: datetime, date_format: YYYY-MM-DD, time_format: false, format: YYYY-MM-DD }
+              - { label: Title (English), name: title_en, widget: string }
+              - { label: Title (French), name: title_fr, widget: string }
+              - { label: Description (English), name: description_en, widget: text, required: false }
+              - { label: Description (French), name: description_fr, widget: text, required: false }
+              - { label: More information URL, name: url, widget: string, required: false }
+              - { label: Visible, name: visible, widget: boolean, default: true }
