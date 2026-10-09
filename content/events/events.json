@@ -1,13 +1,3 @@
 {
-  "events": [
-    {
-      "date": "2026-10-10",
-      "title_en": "test",
-      "title_fr": "test",
-      "description_en": "test",
-      "description_fr": "test",
-      "url": "",
-      "visible": true
-    }
-  ]
+  "events": []
 }
