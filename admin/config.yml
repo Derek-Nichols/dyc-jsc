@@ -1,8 +1,8 @@
-# Development-only CMS configuration. Do not deploy to production until OAuth and review permissions are configured.
+# CMS configuration. GitHub collaborators with write access can edit repository content.
 backend:
   name: github
   repo: Derek-Nichols/dyc-jsc
-  branch: feature/cms-integration
+  branch: main
   auth_methods: [oauth]
   base_url: https://sveltia-cms-auth.nicholsholmes-dn.workers.dev
 media_folder: assets/uploads
