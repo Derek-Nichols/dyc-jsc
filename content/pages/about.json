@@ -1,0 +1,322 @@
+{
+  "sections": [
+    {
+      "key": "text-1",
+      "label": "A — Skip to content",
+      "en": "Skip to content",
+      "fr": "Aller au contenu"
+    },
+    {
+      "key": "text-2",
+      "label": "SPAN — Deaf youth. Connected across Canada.",
+      "en": "Deaf youth. Connected across Canada.",
+      "fr": "Les jeunes Sourds. Unis partout au Canada."
+    },
+    {
+      "key": "text-3",
+      "label": "BUTTON — Menu",
+      "en": "Menu",
+      "fr": "Menu"
+    },
+    {
+      "key": "text-4",
+      "label": "A — Home",
+      "en": "Home",
+      "fr": "Accueil"
+    },
+    {
+      "key": "text-5",
+      "label": "SPAN — About us",
+      "en": "About us",
+      "fr": "À propos"
+    },
+    {
+      "key": "text-6",
+      "label": "A — Who We Are",
+      "en": "Who We Are",
+      "fr": "Qui nous sommes"
+    },
+    {
+      "key": "text-7",
+      "label": "A — Bylaws",
+      "en": "Bylaws",
+      "fr": "Règlements"
+    },
+    {
+      "key": "text-8",
+      "label": "A — Board",
+      "en": "Board",
+      "fr": "Conseil"
+    },
+    {
+      "key": "text-9",
+      "label": "A — CDYLC",
+      "en": "CDYLC",
+      "fr": "CLJSC"
+    },
+    {
+      "key": "text-10",
+      "label": "A — Memories",
+      "en": "Memories",
+      "fr": "Souvenirs"
+    },
+    {
+      "key": "text-11",
+      "label": "SPAN — More",
+      "en": "More",
+      "fr": "Plus"
+    },
+    {
+      "key": "text-12",
+      "label": "A — Get Involved",
+      "en": "Get Involved",
+      "fr": "Participer"
+    },
+    {
+      "key": "text-13",
+      "label": "A — Resources",
+      "en": "Resources",
+      "fr": "Ressources"
+    },
+    {
+      "key": "text-14",
+      "label": "A — Become a Member",
+      "en": "Become a Member",
+      "fr": "Devenir membre"
+    },
+    {
+      "key": "text-15",
+      "label": "A — Contact Us",
+      "en": "Contact Us",
+      "fr": "Nous joindre"
+    },
+    {
+      "key": "text-16",
+      "label": "A — Home",
+      "en": "Home",
+      "fr": "Accueil"
+    },
+    {
+      "key": "text-17",
+      "label": "SPAN — Who We Are",
+      "en": "Who We Are",
+      "fr": "Qui nous sommes"
+    },
+    {
+      "key": "text-18",
+      "label": "P — ABOUT DYC / JSC",
+      "en": "ABOUT DYC / JSC",
+      "fr": "À PROPOS DE DYC / JSC"
+    },
+    {
+      "key": "text-19",
+      "label": "H1 — Who we are",
+      "en": "Who we are",
+      "fr": "Qui nous sommes"
+    },
+    {
+      "key": "text-20",
+      "label": "H2 — About us",
+      "en": "About us",
+      "fr": "À propos de nous"
+    },
+    {
+      "key": "text-21",
+      "label": "P — Deaf Youth Canada (DYC) is a non-profit organization under the Ca",
+      "en": "Deaf Youth Canada (DYC) is a non-profit organization under the Canadian Association of the Deaf – Association des Sourds du Canada (CAD-ASC). Our goal is to raise awareness within the broader Deaf youth community about Deaf leadership and our beautiful sign languages.",
+      "fr": "Jeunes Sourds du Canada (JSC) est une organisation à but non lucratif rattachée à l’Association des Sourds du Canada – Canadian Association of the Deaf (ASC-CAD). Notre objectif est de sensibiliser la communauté des jeunes Sourds au leadership sourd et à nos belles langues des signes."
+    },
+    {
+      "key": "text-22",
+      "label": "H2 — Our history",
+      "en": "Our history",
+      "fr": "Notre histoire"
+    },
+    {
+      "key": "text-23",
+      "label": "DIV — 1970s",
+      "en": "1970s",
+      "fr": "Années 1970"
+    },
+    {
+      "key": "text-24",
+      "label": "H3 — The early roots",
+      "en": "The early roots",
+      "fr": "Les premières racines"
+    },
+    {
+      "key": "text-25",
+      "label": "P — CDYLC was active in the 1970s. Those early camps paved the way fo",
+      "en": "CDYLC was active in the 1970s. Those early camps paved the way for its re-establishment in 2008 and the experience that continues today.",
+      "fr": "Le CLJSC était actif dans les années 1970. Ces premiers camps ont ouvert la voie à son rétablissement en 2008 et à l’expérience qui se poursuit aujourd’hui."
+    },
+    {
+      "key": "text-26",
+      "label": "DIV — 2008",
+      "en": "2008",
+      "fr": "2008"
+    },
+    {
+      "key": "text-27",
+      "label": "H3 — A new chapter, led by Deaf youth",
+      "en": "A new chapter, led by Deaf youth",
+      "fr": "Un nouveau chapitre, dirigé par les jeunes Sourds"
+    },
+    {
+      "key": "text-28",
+      "label": "P — A group of Deaf youth leaders established Deaf Youth Canada in 20",
+      "en": "A group of Deaf youth leaders established Deaf Youth Canada in 2008. That summer, they organized and hosted the first camp in DYC’s biennial Canadian Deaf Youth Leadership Camp series in Sylvan Lake, Alberta.",
+      "fr": "Un groupe de jeunes leaders sourds a fondé Jeunes Sourds du Canada en 2008. Cet été-là, ils ont organisé et accueilli le premier camp de la série biennale du Camp de leadership des jeunes sourds du Canada de JSC à Sylvan Lake, en Alberta."
+    },
+    {
+      "key": "text-29",
+      "label": "P — Although camps for Deaf youth had taken place across Canada befor",
+      "en": "Although camps for Deaf youth had taken place across Canada before, CDYLC 2008 was the first to be run entirely by Deaf youth.",
+      "fr": "Bien que des camps pour les jeunes Sourds aient déjà eu lieu au Canada, le CLJSC 2008 a été le premier à être entièrement organisé par des jeunes Sourds."
+    },
+    {
+      "key": "text-30",
+      "label": "DIV — Since 2008",
+      "en": "Since 2008",
+      "fr": "Depuis 2008"
+    },
+    {
+      "key": "text-31",
+      "label": "H3 — A continuing legacy",
+      "en": "A continuing legacy",
+      "fr": "Un héritage qui se poursuit"
+    },
+    {
+      "key": "text-32",
+      "label": "P — DYC is proud to have hosted eight successful camps since 2008, wi",
+      "en": "DYC is proud to have hosted eight successful camps since 2008, with fantastic support from Deaf youth leaders.",
+      "fr": "JSC est fier d’avoir organisé huit camps réussis depuis 2008, avec le soutien fantastique de jeunes leaders sourds."
+    },
+    {
+      "key": "text-33",
+      "label": "H2 — Our mission",
+      "en": "Our mission",
+      "fr": "Notre mission"
+    },
+    {
+      "key": "text-34",
+      "label": "P — Deaf Youth Canada is organized exclusively for charitable, social",
+      "en": "Deaf Youth Canada is organized exclusively for charitable, social, and educational purposes for Deaf residents of Canada and Canadians between the ages of 18 to 30 years old.",
+      "fr": "Les Jeunes Sourds du Canada est organisé exclusivement pour à des fins caritatives, sociales et éducatives pour les résidents sourds du Canada et les Canadiens âgés de 18 à 30 ans."
+    },
+    {
+      "key": "text-35",
+      "label": "P — Deaf Youth Canada pursues the following ends:",
+      "en": "Deaf Youth Canada pursues the following ends:",
+      "fr": "Les Jeunes Sourds du Canada a comme objectifs les suivants :"
+    },
+    {
+      "key": "text-36",
+      "label": "H3 — By Youth",
+      "en": "By Youth",
+      "fr": "Par les jeunes"
+    },
+    {
+      "key": "text-37",
+      "label": "P — Deaf Youth Canada is governed by Deaf youth.",
+      "en": "Deaf Youth Canada is governed by Deaf youth.",
+      "fr": "Jeunes Sourds du Canada est gouverné par les jeunes sourds."
+    },
+    {
+      "key": "text-38",
+      "label": "H3 — For Youth",
+      "en": "For Youth",
+      "fr": "Pour les jeunes"
+    },
+    {
+      "key": "text-39",
+      "label": "P — Deaf Youth Canada promotes the unification of Deaf youth across C",
+      "en": "Deaf Youth Canada promotes the unification of Deaf youth across Canada by organizing and stimulating the exchange of information and experiences among Deaf youth.",
+      "fr": "Jeunes Sourds du Canada encourage l’unification des jeunes sourds à travers le Canada en organisant et en stimulant l’échange d’informations et d’expériences chez les jeunes sourds."
+    },
+    {
+      "key": "text-40",
+      "label": "H3 — About Youth",
+      "en": "About Youth",
+      "fr": "À propos des jeunes"
+    },
+    {
+      "key": "text-41",
+      "label": "P — Deaf Youth Canada ensures the inclusion of Deaf Youth in all nati",
+      "en": "Deaf Youth Canada ensures the inclusion of Deaf Youth in all national and provincial organizations and associations of and for Deaf people in Canada by partnering with national and provincial organizations and associations for the Deaf across Canada.",
+      "fr": "Jeunes Sourds du Canada assure l’inclusion des jeunes sourds dans toutes les organisations et associations nationales et provinciales de et pour les personnes sourdes au Canada en s’associant avec des organisations et associations nationales et provinciales pour les sourds à travers le Canada."
+    },
+    {
+      "key": "text-42",
+      "label": "P — “By youth, for youth, about youth.”",
+      "en": "“By youth, for youth, about youth.”",
+      "fr": "« Par les jeunes, pour les jeunes et à propos des jeunes. »"
+    },
+    {
+      "key": "text-43",
+      "label": "CITE — The DYC / JSC motto",
+      "en": "The DYC / JSC motto",
+      "fr": "La devise de DYC / JSC"
+    },
+    {
+      "key": "text-44",
+      "label": "A — Meet the board",
+      "en": "Meet the board",
+      "fr": "Notre conseil"
+    },
+    {
+      "key": "text-45",
+      "label": "A — Read our mission",
+      "en": "Read our mission",
+      "fr": "Découvrez notre mission"
+    },
+    {
+      "key": "text-46",
+      "label": "P — By youth. For youth. About youth.",
+      "en": "By youth. For youth. About youth.",
+      "fr": "Par, pour et à propos des jeunes."
+    },
+    {
+      "key": "text-47",
+      "label": "SPAN — Operated under",
+      "en": "Operated under",
+      "fr": "Sous l’égide de"
+    },
+    {
+      "key": "text-48",
+      "label": "A — CAD-ASC",
+      "en": "CAD-ASC",
+      "fr": "l’ASC-CAD"
+    },
+    {
+      "key": "text-49",
+      "label": "SPAN — Charitable Registration Number: 108075003RR0001",
+      "en": "Charitable Registration Number: 108075003RR0001",
+      "fr": "Numéro d’enregistrement d’organisme de bienfaisance : 108075003RR0001"
+    },
+    {
+      "key": "text-50",
+      "label": "SPAN — © 2026 DYC / JSC. All rights reserved.",
+      "en": "© 2026 DYC / JSC. All rights reserved.",
+      "fr": "© 2026 DYC / JSC. Tous droits réservés."
+    },
+    {
+      "key": "text-51",
+      "label": "A — Terms and Conditions",
+      "en": "Terms and Conditions",
+      "fr": "Conditions d’utilisation"
+    },
+    {
+      "key": "text-52",
+      "label": "A — Privacy Policy",
+      "en": "Privacy Policy",
+      "fr": "Politique de confidentialité"
+    },
+    {
+      "key": "text-53",
+      "label": "A — Back to top",
+      "en": "Back to top",
+      "fr": "Retour en haut"
+    }
+  ]
+}
