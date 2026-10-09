@@ -5,7 +5,6 @@ backend:
   branch: feature/cms-integration
 media_folder: assets/uploads
 public_folder: /assets/uploads
-publish: false
 collections:
   - name: board
     label: Board Members (Pilot)
@@ -20,5 +19,6 @@ collections:
       - { label: Position (English), name: position_en, widget: string }
       - { label: Position (French), name: position_fr, widget: string }
       - { label: Photo, name: photo, widget: image, required: false }
+      - { label: Image description, name: alt, widget: string, required: false }
       - { label: Display order, name: order, widget: number, value_type: int, default: 1 }
       - { label: Visible, name: visible, widget: boolean, default: true }
