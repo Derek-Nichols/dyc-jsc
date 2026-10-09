@@ -3,6 +3,9 @@ backend:
   name: github
   repo: Derek-Nichols/dyc-jsc
   branch: feature/cms-integration
+  auth_methods: [oauth]
+  # Set base_url to your Cloudflare Worker URL after deploying the authenticator.
+  # base_url: https://YOUR-WORKER.workers.dev
 media_folder: assets/uploads
 public_folder: /assets/uploads
 collections:
