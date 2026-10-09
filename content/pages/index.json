@@ -1,0 +1,370 @@
+{
+  "sections": [
+    {
+      "key": "text-1",
+      "label": "A — Skip to content",
+      "en": "Skip to content",
+      "fr": "Aller au contenu"
+    },
+    {
+      "key": "text-2",
+      "label": "SPAN — Deaf youth. Connected across Canada.",
+      "en": "Deaf youth. Connected across Canada.",
+      "fr": "Les jeunes Sourds. Unis partout au Canada."
+    },
+    {
+      "key": "text-3",
+      "label": "BUTTON — Menu",
+      "en": "Menu",
+      "fr": "Menu"
+    },
+    {
+      "key": "text-4",
+      "label": "A — Home",
+      "en": "Home",
+      "fr": "Accueil"
+    },
+    {
+      "key": "text-5",
+      "label": "SPAN — About us",
+      "en": "About us",
+      "fr": "À propos"
+    },
+    {
+      "key": "text-6",
+      "label": "A — Who We Are",
+      "en": "Who We Are",
+      "fr": "Qui nous sommes"
+    },
+    {
+      "key": "text-7",
+      "label": "A — Bylaws",
+      "en": "Bylaws",
+      "fr": "Règlements"
+    },
+    {
+      "key": "text-8",
+      "label": "A — Board",
+      "en": "Board",
+      "fr": "Conseil"
+    },
+    {
+      "key": "text-9",
+      "label": "A — CDYLC",
+      "en": "CDYLC",
+      "fr": "CLJSC"
+    },
+    {
+      "key": "text-10",
+      "label": "A — Memories",
+      "en": "Memories",
+      "fr": "Souvenirs"
+    },
+    {
+      "key": "text-11",
+      "label": "SPAN — More",
+      "en": "More",
+      "fr": "Plus"
+    },
+    {
+      "key": "text-12",
+      "label": "A — Get Involved",
+      "en": "Get Involved",
+      "fr": "Participer"
+    },
+    {
+      "key": "text-13",
+      "label": "A — Resources",
+      "en": "Resources",
+      "fr": "Ressources"
+    },
+    {
+      "key": "text-14",
+      "label": "A — Become a Member",
+      "en": "Become a Member",
+      "fr": "Devenir membre"
+    },
+    {
+      "key": "text-15",
+      "label": "A — Contact Us",
+      "en": "Contact Us",
+      "fr": "Nous joindre"
+    },
+    {
+      "key": "text-16",
+      "label": "P — BY YOUTH. FOR YOUTH. ABOUT YOUTH.",
+      "en": "BY YOUTH. FOR YOUTH. ABOUT YOUTH.",
+      "fr": "PAR, POUR ET À PROPOS DES JEUNES."
+    },
+    {
+      "key": "text-17",
+      "label": "H1 — Our community. Our future.  Our hands. ",
+      "en": "Our community.<br>Our future.<br><em>Our hands.</em>",
+      "fr": "Notre communauté.<br>Notre avenir.<br><em>Nos mains.</em>"
+    },
+    {
+      "key": "text-18",
+      "label": "P — Bringing Deaf youth together to connect, lead, and shape a more i",
+      "en": "Bringing Deaf youth together to connect, lead, and shape a more inclusive Canada.",
+      "fr": "Rassembler les jeunes Sourds pour créer des liens, exercer leur leadership et bâtir un Canada plus inclusif."
+    },
+    {
+      "key": "text-19",
+      "label": "A — Explore CDYLC",
+      "en": "Explore CDYLC",
+      "fr": "Découvrez le CLJSC"
+    },
+    {
+      "key": "text-20",
+      "label": "A — Discover DYC / JSC",
+      "en": "Discover DYC / JSC",
+      "fr": "Découvrez DYC / JSC"
+    },
+    {
+      "key": "text-21",
+      "label": "SPAN — Deaf-led. Youth-driven. Across Canada.",
+      "en": "Deaf-led. Youth-driven. Across Canada.",
+      "fr": "Par les jeunes Sourds, partout au Canada."
+    },
+    {
+      "key": "text-22",
+      "label": "SPAN — A COMMUNITY THAT CONNECTS US",
+      "en": "A COMMUNITY THAT CONNECTS US",
+      "fr": "UNE COMMUNAUTÉ QUI NOUS UNIT"
+    },
+    {
+      "key": "text-23",
+      "label": "STRONG — Different journeys. Shared belonging.",
+      "en": "Different journeys.<br>Shared belonging.",
+      "fr": "Des parcours différents.<br>Un même sentiment d’appartenance."
+    },
+    {
+      "key": "text-24",
+      "label": "SMALL — From the DYC / JSC memories archive",
+      "en": "From the DYC / JSC memories archive",
+      "fr": "Tiré des archives de souvenirs de DYC / JSC"
+    },
+    {
+      "key": "text-25",
+      "label": "SPAN — Deaf-led leadership",
+      "en": "Deaf-led leadership",
+      "fr": "Leadership sourd"
+    },
+    {
+      "key": "text-26",
+      "label": "SPAN — Ages 18–30",
+      "en": "Ages 18–30",
+      "fr": "De 18 à 30 ans"
+    },
+    {
+      "key": "text-27",
+      "label": "SPAN — Connections across Canada",
+      "en": "Connections across Canada",
+      "fr": "Des liens partout au Canada"
+    },
+    {
+      "key": "text-28",
+      "label": "P — WHAT’S HAPPENING",
+      "en": "WHAT’S HAPPENING",
+      "fr": "À L’AGENDA"
+    },
+    {
+      "key": "text-29",
+      "label": "H2 — Upcoming events",
+      "en": "Upcoming events",
+      "fr": "Événements à venir"
+    },
+    {
+      "key": "text-30",
+      "label": "P — Keep an eye on this space for DYC / JSC gatherings, activities, a",
+      "en": "Keep an eye on this space for DYC / JSC gatherings, activities, and opportunities to connect.",
+      "fr": "Surveillez cet espace pour les rencontres, les activités et les occasions de créer des liens avec DYC / JSC."
+    },
+    {
+      "key": "text-31",
+      "label": "BUTTON — Previous",
+      "en": "Previous",
+      "fr": "Précédent"
+    },
+    {
+      "key": "text-32",
+      "label": "BUTTON — Today",
+      "en": "Today",
+      "fr": "Aujourd’hui"
+    },
+    {
+      "key": "text-33",
+      "label": "BUTTON — Next",
+      "en": "Next",
+      "fr": "Suivant"
+    },
+    {
+      "key": "text-34",
+      "label": "SPAN — Bold red date: today. Select a date to see events.",
+      "en": "Bold red date: today. Select a date to see events.",
+      "fr": "Date en rouge et en gras : aujourd’hui. Sélectionnez une date pour voir les événements."
+    },
+    {
+      "key": "text-35",
+      "label": "H3 — On the horizon",
+      "en": "On the horizon",
+      "fr": "À venir"
+    },
+    {
+      "key": "text-36",
+      "label": "STRONG — Dates to be announced",
+      "en": "Dates to be announced",
+      "fr": "Dates à venir"
+    },
+    {
+      "key": "text-37",
+      "label": "P — No event dates have been added to this calendar yet. Follow our s",
+      "en": "No event dates have been added to this calendar yet. Follow our social channels for announcements.",
+      "fr": "Aucune date d’événement n’a encore été ajoutée à ce calendrier. Suivez nos réseaux sociaux pour les annonces."
+    },
+    {
+      "key": "text-38",
+      "label": "H3 — Leadership camp",
+      "en": "Leadership camp",
+      "fr": "Camp de leadership"
+    },
+    {
+      "key": "text-39",
+      "label": "P — Visit the camp website for information and updates.",
+      "en": "Visit the camp website for information and updates.",
+      "fr": "Consultez le site du camp pour les renseignements et les nouvelles."
+    },
+    {
+      "key": "text-40",
+      "label": "A — Explore the camp",
+      "en": "Explore the camp",
+      "fr": "Découvrez le camp"
+    },
+    {
+      "key": "text-41",
+      "label": "P — WHO WE ARE",
+      "en": "WHO WE ARE",
+      "fr": "QUI NOUS SOMMES"
+    },
+    {
+      "key": "text-42",
+      "label": "H2 — Deaf youth. br A shared future.",
+      "en": "Deaf youth.&lt;br&gt;A shared future.",
+      "fr": "Les jeunes Sourds.&lt;br&gt;Un avenir commun."
+    },
+    {
+      "key": "text-43",
+      "label": "P — Deaf Youth Canada / Jeunes Sourds du Canada is led by Deaf youth ",
+      "en": "Deaf Youth Canada / Jeunes Sourds du Canada is led by Deaf youth and serves Deaf residents of Canada and Canadians aged 18 to 30. We bring young people together through social, educational, and community opportunities.",
+      "fr": "Deaf Youth Canada / Jeunes Sourds du Canada est dirigé par des jeunes Sourds et s’adresse aux résidents sourds du Canada et aux Canadiens de 18 à 30 ans. Nous rassemblons les jeunes grâce à des occasions sociales, éducatives et communautaires."
+    },
+    {
+      "key": "text-44",
+      "label": "P — From leadership camp to connections across provinces, DYC / JSC e",
+      "en": "From leadership camp to connections across provinces, DYC / JSC encourages the exchange of experiences and works with Deaf organizations to support youth inclusion. We operate under CAD-ASC.",
+      "fr": "Du camp de leadership aux liens entre les provinces, DYC / JSC encourage le partage d’expériences et collabore avec les organismes sourds pour soutenir l’inclusion des jeunes. Nous relevons de l’ASC-CAD."
+    },
+    {
+      "key": "text-45",
+      "label": "A — Read our mission",
+      "en": "Read our mission",
+      "fr": "Découvrez notre mission"
+    },
+    {
+      "key": "text-46",
+      "label": "P — DISCOVER DYC / JSC",
+      "en": "DISCOVER DYC / JSC",
+      "fr": "DÉCOUVREZ DYC / JSC"
+    },
+    {
+      "key": "text-47",
+      "label": "H2 — Get to know your community.",
+      "en": "Get to know your community.",
+      "fr": "Découvrez votre communauté."
+    },
+    {
+      "key": "text-48",
+      "label": "H3 — About us",
+      "en": "About us",
+      "fr": "À propos de nous"
+    },
+    {
+      "key": "text-49",
+      "label": "P — Our mission, our values, and our connection to CAD-ASC.",
+      "en": "Our mission, our values, and our connection to CAD-ASC.",
+      "fr": "Notre mission, nos valeurs et notre lien avec l’ASC-CAD."
+    },
+    {
+      "key": "text-50",
+      "label": "H3 — Meet the board",
+      "en": "Meet the board",
+      "fr": "Notre conseil"
+    },
+    {
+      "key": "text-51",
+      "label": "P — Meet the nine people behind DYC / JSC.",
+      "en": "Meet the nine people behind DYC / JSC.",
+      "fr": "Rencontrez les neuf membres du conseil de DYC / JSC."
+    },
+    {
+      "key": "text-52",
+      "label": "H3 — CDYLC",
+      "en": "CDYLC",
+      "fr": "CLJSC"
+    },
+    {
+      "key": "text-53",
+      "label": "P — Explore our leadership camp and shared memories.",
+      "en": "Explore our leadership camp and shared memories.",
+      "fr": "Découvrez notre camp de leadership et nos souvenirs."
+    },
+    {
+      "key": "text-54",
+      "label": "P — By youth. For youth. About youth.",
+      "en": "By youth. For youth. About youth.",
+      "fr": "Par, pour et à propos des jeunes."
+    },
+    {
+      "key": "text-55",
+      "label": "SPAN — Operated under",
+      "en": "Operated under",
+      "fr": "Sous l’égide de"
+    },
+    {
+      "key": "text-56",
+      "label": "A — CAD-ASC",
+      "en": "CAD-ASC",
+      "fr": "l’ASC-CAD"
+    },
+    {
+      "key": "text-57",
+      "label": "SPAN — Charitable Registration Number: 108075003RR0001",
+      "en": "Charitable Registration Number: 108075003RR0001",
+      "fr": "Numéro d’enregistrement d’organisme de bienfaisance : 108075003RR0001"
+    },
+    {
+      "key": "text-58",
+      "label": "SPAN — © 2026 DYC / JSC. All rights reserved.",
+      "en": "© 2026 DYC / JSC. All rights reserved.",
+      "fr": "© 2026 DYC / JSC. Tous droits réservés."
+    },
+    {
+      "key": "text-59",
+      "label": "A — Terms and Conditions",
+      "en": "Terms and Conditions",
+      "fr": "Conditions d’utilisation"
+    },
+    {
+      "key": "text-60",
+      "label": "A — Privacy Policy",
+      "en": "Privacy Policy",
+      "fr": "Politique de confidentialité"
+    },
+    {
+      "key": "text-61",
+      "label": "A — Back to top",
+      "en": "Back to top",
+      "fr": "Retour en haut"
+    }
+  ]
+}
