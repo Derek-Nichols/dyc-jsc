@@ -1,0 +1,304 @@
+{
+  "sections": [
+    {
+      "key": "text-1",
+      "label": "A — Skip to content",
+      "en": "Skip to content",
+      "fr": "Aller au contenu"
+    },
+    {
+      "key": "text-2",
+      "label": "SPAN — Deaf youth. Connected across Canada.",
+      "en": "Deaf youth. Connected across Canada.",
+      "fr": "Les jeunes Sourds. Unis partout au Canada."
+    },
+    {
+      "key": "text-3",
+      "label": "BUTTON — Menu",
+      "en": "Menu",
+      "fr": "Menu"
+    },
+    {
+      "key": "text-4",
+      "label": "A — Home",
+      "en": "Home",
+      "fr": "Accueil"
+    },
+    {
+      "key": "text-5",
+      "label": "SPAN — About us",
+      "en": "About us",
+      "fr": "À propos"
+    },
+    {
+      "key": "text-6",
+      "label": "A — Who We Are",
+      "en": "Who We Are",
+      "fr": "Qui nous sommes"
+    },
+    {
+      "key": "text-7",
+      "label": "A — Bylaws",
+      "en": "Bylaws",
+      "fr": "Règlements"
+    },
+    {
+      "key": "text-8",
+      "label": "A — Board",
+      "en": "Board",
+      "fr": "Conseil"
+    },
+    {
+      "key": "text-9",
+      "label": "A — CDYLC",
+      "en": "CDYLC",
+      "fr": "CLJSC"
+    },
+    {
+      "key": "text-10",
+      "label": "A — Memories",
+      "en": "Memories",
+      "fr": "Souvenirs"
+    },
+    {
+      "key": "text-11",
+      "label": "SPAN — More",
+      "en": "More",
+      "fr": "Plus"
+    },
+    {
+      "key": "text-12",
+      "label": "A — Get Involved",
+      "en": "Get Involved",
+      "fr": "Participer"
+    },
+    {
+      "key": "text-13",
+      "label": "A — Resources",
+      "en": "Resources",
+      "fr": "Ressources"
+    },
+    {
+      "key": "text-14",
+      "label": "A — Become a Member",
+      "en": "Become a Member",
+      "fr": "Devenir membre"
+    },
+    {
+      "key": "text-15",
+      "label": "A — Contact Us",
+      "en": "Contact Us",
+      "fr": "Nous joindre"
+    },
+    {
+      "key": "text-16",
+      "label": "H1 — Terms and Conditions",
+      "en": "Terms and Conditions",
+      "fr": "Conditions d’utilisation"
+    },
+    {
+      "key": "text-17",
+      "label": "P — Last updated: October 7, 2026",
+      "en": "Last updated: October 7, 2026",
+      "fr": "Dernière mise à jour : 7 octobre 2026"
+    },
+    {
+      "key": "text-18",
+      "label": "H2 — About this website",
+      "en": "About this website",
+      "fr": "À propos de ce site"
+    },
+    {
+      "key": "text-19",
+      "label": "P — This website provides information about Deaf Youth Canada / Jeune",
+      "en": "This website provides information about Deaf Youth Canada / Jeunes Sourds du Canada (DYC / JSC), its community, leadership, activities, and governance. These terms apply to use of the website.",
+      "fr": "Ce site présente Deaf Youth Canada / Jeunes Sourds du Canada (DYC / JSC), sa communauté, son leadership, ses activités et sa gouvernance. Ces conditions s’appliquent à l’utilisation du site."
+    },
+    {
+      "key": "text-20",
+      "label": "H2 — Respectful use",
+      "en": "Respectful use",
+      "fr": "Utilisation respectueuse"
+    },
+    {
+      "key": "text-21",
+      "label": "P — Use the website lawfully and respectfully. Do not submit spam, im",
+      "en": "Use the website lawfully and respectfully. Do not submit spam, impersonate another person, send threatening or unlawful material, or attempt to disrupt the website or access information without permission.",
+      "fr": "Utilisez le site légalement et respectueusement. N’envoyez pas de pourriels, n’usurpez pas l’identité d’autrui, ne transmettez pas de contenu menaçant ou illégal et ne tentez pas de perturber le site ou d’accéder à des renseignements sans autorisation."
+    },
+    {
+      "key": "text-22",
+      "label": "H2 — Information and participation",
+      "en": "Information and participation",
+      "fr": "Renseignements et participation"
+    },
+    {
+      "key": "text-23",
+      "label": "P — Information, event details, and opportunities may change. Contact",
+      "en": "Information, event details, and opportunities may change. Contact our team to confirm details before making plans. Sending a message or asking about membership does not confirm membership, event registration, or acceptance for a volunteer role. Separate requirements may apply to programs and activities.",
+      "fr": "Les renseignements, les détails des événements et les occasions de participation peuvent changer. Contactez notre équipe pour confirmer les détails avant de planifier votre participation. L’envoi d’un message ou d’une demande d’adhésion ne confirme pas une adhésion, une inscription ou l’acceptation à un poste bénévole. Des exigences distinctes peuvent s’appliquer aux programmes et activités."
+    },
+    {
+      "key": "text-24",
+      "label": "H2 — Photos, logos, and other content",
+      "en": "Photos, logos, and other content",
+      "fr": "Photos, logos et autres contenus"
+    },
+    {
+      "key": "text-25",
+      "label": "P — The names, logos, photographs, and other materials on this websit",
+      "en": "The names, logos, photographs, and other materials on this website belong to their respective rights holders. You may link to the website. Ask for permission before reproducing or using its photos, logos, or other protected material, except where the law permits the use.",
+      "fr": "Les noms, logos, photographies et autres contenus du site appartiennent à leurs titulaires de droits respectifs. Vous pouvez créer un lien vers le site. Demandez une autorisation avant de reproduire ou d’utiliser ses photos, logos ou autres contenus protégés, sauf lorsque la loi permet cette utilisation."
+    },
+    {
+      "key": "text-26",
+      "label": "H2 — External services and links",
+      "en": "External services and links",
+      "fr": "Services et liens externes"
+    },
+    {
+      "key": "text-27",
+      "label": "P — Links to other websites are provided for convenience. External we",
+      "en": "Links to other websites are provided for convenience. External websites and services have their own terms and privacy practices. DYC / JSC does not control their content or availability.",
+      "fr": "Les liens vers d’autres sites sont fournis à titre pratique. Les sites et services externes ont leurs propres conditions et pratiques de confidentialité. DYC / JSC ne contrôle pas leur contenu ni leur disponibilité."
+    },
+    {
+      "key": "text-28",
+      "label": "H2 — DYC / JSC and CAD-ASC",
+      "en": "DYC / JSC and CAD-ASC",
+      "fr": "DYC / JSC et l’ASC-CAD"
+    },
+    {
+      "key": "text-29",
+      "label": "P — DYC / JSC operates under the Canadian Association of the Deaf / A",
+      "en": "DYC / JSC operates under the Canadian Association of the Deaf / Association des Sourds du Canada (CAD-ASC). The charitable registration number shown in the footer relates to that arrangement. This website introduces DYC / JSC and its activities; it does not replace the organization’s bylaws, official decisions, or program-specific documents.",
+      "fr": "DYC / JSC relève de l’Association des Sourds du Canada / Canadian Association of the Deaf (ASC-CAD). Le numéro d’enregistrement d’organisme de bienfaisance indiqué en pied de page se rapporte à cette affiliation. Ce site présente DYC / JSC et ses activités; il ne remplace pas les règlements, les décisions officielles ni les documents propres aux programmes."
+    },
+    {
+      "key": "text-30",
+      "label": "H2 — Camp, membership, and event enquiries",
+      "en": "Camp, membership, and event enquiries",
+      "fr": "Demandes concernant le camp, l’adhésion et les événements"
+    },
+    {
+      "key": "text-31",
+      "label": "P — Camp dates, locations, fees, eligibility, accessibility arrangeme",
+      "en": "Camp dates, locations, fees, eligibility, accessibility arrangements, and application deadlines should be confirmed through the relevant program’s official information. A calendar entry or a link on this site is informational and does not reserve a place. Any registration, payment, cancellation, refund, or participant-consent terms must be reviewed through the program concerned.",
+      "fr": "Les dates, lieux, frais, critères d’admissibilité, mesures d’accessibilité et dates limites doivent être confirmés dans les renseignements officiels du programme concerné. Une entrée au calendrier ou un lien sur ce site est fourni à titre informatif et ne réserve aucune place. Les conditions d’inscription, de paiement, d’annulation, de remboursement et de consentement des participants doivent être consultées auprès du programme concerné."
+    },
+    {
+      "key": "text-32",
+      "label": "H2 — Messages and submitted material",
+      "en": "Messages and submitted material",
+      "fr": "Messages et documents transmis"
+    },
+    {
+      "key": "text-33",
+      "label": "P — When contacting us, provide an accurate reply address and only in",
+      "en": "When contacting us, provide an accurate reply address and only information you are entitled to share. Do not include another person’s private details without permission. Sending a message does not give you authority to represent DYC / JSC, and an automated confirmation does not mean your request has been approved.",
+      "fr": "Lorsque vous nous contactez, fournissez une adresse de réponse exacte et uniquement des renseignements que vous êtes autorisé à communiquer. N’incluez pas les renseignements privés d’une autre personne sans autorisation. L’envoi d’un message ne vous autorise pas à représenter DYC / JSC, et une confirmation automatique ne signifie pas que votre demande a été approuvée."
+    },
+    {
+      "key": "text-34",
+      "label": "P — The contact form is for general enquiries. Delivery may be delaye",
+      "en": "The contact form is for general enquiries. Delivery may be delayed or interrupted by spam checks or email service issues. If a message does not go through, use the email address on the Contact Us page. Information handling is explained in our Privacy Policy.",
+      "fr": "Le formulaire de contact sert aux demandes générales. La transmission peut être retardée ou interrompue par les vérifications antipourriel ou des problèmes de messagerie. Si votre message n’est pas transmis, utilisez l’adresse courriel indiquée sur la page Nous joindre. Le traitement des renseignements est expliqué dans notre Politique de confidentialité."
+    },
+    {
+      "key": "text-35",
+      "label": "H2 — Sharing and attribution",
+      "en": "Sharing and attribution",
+      "fr": "Partage et attribution"
+    },
+    {
+      "key": "text-36",
+      "label": "P — You may share a link to our pages without suggesting that DYC / J",
+      "en": "You may share a link to our pages without suggesting that DYC / JSC endorses you or your organization. Publicly viewable photos are not automatically free to republish, alter, or use in advertising. Contact us with the image or page you wish to use and a description of the intended use. Permission from other rights holders or people shown may also be needed.",
+      "fr": "Vous pouvez partager un lien vers nos pages sans laisser entendre que DYC / JSC vous appuie ou appuie votre organisme. Les photos accessibles au public ne peuvent pas automatiquement être republiées, modifiées ou utilisées dans une publicité. Contactez-nous en précisant l’image ou la page concernée et l’utilisation souhaitée. Une autorisation d’autres titulaires de droits ou des personnes représentées peut aussi être nécessaire."
+    },
+    {
+      "key": "text-37",
+      "label": "H2 — Availability, corrections, and accessibility",
+      "en": "Availability, corrections, and accessibility",
+      "fr": "Disponibilité, corrections et accessibilité"
+    },
+    {
+      "key": "text-38",
+      "label": "P — We may update, move, or remove website content. Continuous availa",
+      "en": "We may update, move, or remove website content. Continuous availability and error-free information cannot be guaranteed. If you notice incorrect information, a broken link, or an accessibility barrier, contact us with the page address and a brief description. You can also ask about an alternative format.",
+      "fr": "Le contenu du site peut être mis à jour, déplacé ou retiré. La disponibilité continue du site et l’absence d’erreurs ne peuvent être garanties. Si vous constatez une erreur, un lien brisé ou un obstacle à l’accessibilité, contactez-nous en indiquant l’adresse de la page et une brève description. Vous pouvez également demander un autre format."
+    },
+    {
+      "key": "text-39",
+      "label": "P — English and French content is provided to support access. If the ",
+      "en": "English and French content is provided to support access. If the versions appear inconsistent, ask our team for clarification. For governance matters, consult the applicable official bylaws and decisions. These website terms do not waive any rights or responsibilities that cannot lawfully be excluded.",
+      "fr": "Les contenus français et anglais sont offerts pour favoriser l’accès à l’information. Si les versions semblent diverger, demandez des précisions à notre équipe. Pour les questions de gouvernance, consultez les règlements officiels et les décisions applicables. Ces conditions ne suppriment aucun droit ni aucune responsabilité qui ne peut légalement être exclu."
+    },
+    {
+      "key": "text-40",
+      "label": "H2 — Updates and questions",
+      "en": "Updates and questions",
+      "fr": "Mises à jour et questions"
+    },
+    {
+      "key": "text-41",
+      "label": "P — These terms may be updated as the website changes. Nothing in the",
+      "en": "These terms may be updated as the website changes. Nothing in these terms limits rights that cannot legally be excluded. For questions, contact dycjsc@gmail.com.",
+      "fr": "Ces conditions peuvent être mises à jour lorsque le site évolue. Elles ne limitent aucun droit qui ne peut légalement être exclu. Pour toute question, écrivez à dycjsc@gmail.com."
+    },
+    {
+      "key": "text-42",
+      "label": "A — Read our Privacy Policy",
+      "en": "Read our Privacy Policy",
+      "fr": "Lire notre Politique de confidentialité"
+    },
+    {
+      "key": "text-43",
+      "label": "P — By youth. For youth. About youth.",
+      "en": "By youth. For youth. About youth.",
+      "fr": "Par, pour et à propos des jeunes."
+    },
+    {
+      "key": "text-44",
+      "label": "SPAN — Operated under",
+      "en": "Operated under",
+      "fr": "Sous l’égide de"
+    },
+    {
+      "key": "text-45",
+      "label": "A — CAD-ASC",
+      "en": "CAD-ASC",
+      "fr": "l’ASC-CAD"
+    },
+    {
+      "key": "text-46",
+      "label": "SPAN — Charitable Registration Number: 108075003RR0001",
+      "en": "Charitable Registration Number: 108075003RR0001",
+      "fr": "Numéro d’enregistrement d’organisme de bienfaisance : 108075003RR0001"
+    },
+    {
+      "key": "text-47",
+      "label": "SPAN — © 2026 DYC / JSC. All rights reserved.",
+      "en": "© 2026 DYC / JSC. All rights reserved.",
+      "fr": "© 2026 DYC / JSC. Tous droits réservés."
+    },
+    {
+      "key": "text-48",
+      "label": "A — Terms and Conditions",
+      "en": "Terms and Conditions",
+      "fr": "Conditions d’utilisation"
+    },
+    {
+      "key": "text-49",
+      "label": "A — Privacy Policy",
+      "en": "Privacy Policy",
+      "fr": "Politique de confidentialité"
+    },
+    {
+      "key": "text-50",
+      "label": "A — Back to top",
+      "en": "Back to top",
+      "fr": "Retour en haut"
+    }
+  ]
+}
