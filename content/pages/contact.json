@@ -1,0 +1,226 @@
+{
+  "sections": [
+    {
+      "key": "text-1",
+      "label": "A — Skip to content",
+      "en": "Skip to content",
+      "fr": "Aller au contenu"
+    },
+    {
+      "key": "text-2",
+      "label": "SPAN — Deaf youth. Connected across Canada.",
+      "en": "Deaf youth. Connected across Canada.",
+      "fr": "Les jeunes Sourds. Unis partout au Canada."
+    },
+    {
+      "key": "text-3",
+      "label": "BUTTON — Menu",
+      "en": "Menu",
+      "fr": "Menu"
+    },
+    {
+      "key": "text-4",
+      "label": "A — Home",
+      "en": "Home",
+      "fr": "Accueil"
+    },
+    {
+      "key": "text-5",
+      "label": "SPAN — About us",
+      "en": "About us",
+      "fr": "À propos"
+    },
+    {
+      "key": "text-6",
+      "label": "A — Who We Are",
+      "en": "Who We Are",
+      "fr": "Qui nous sommes"
+    },
+    {
+      "key": "text-7",
+      "label": "A — Bylaws",
+      "en": "Bylaws",
+      "fr": "Règlements"
+    },
+    {
+      "key": "text-8",
+      "label": "A — Board",
+      "en": "Board",
+      "fr": "Conseil"
+    },
+    {
+      "key": "text-9",
+      "label": "A — CDYLC",
+      "en": "CDYLC",
+      "fr": "CLJSC"
+    },
+    {
+      "key": "text-10",
+      "label": "A — Memories",
+      "en": "Memories",
+      "fr": "Souvenirs"
+    },
+    {
+      "key": "text-11",
+      "label": "SPAN — More",
+      "en": "More",
+      "fr": "Plus"
+    },
+    {
+      "key": "text-12",
+      "label": "A — Get Involved",
+      "en": "Get Involved",
+      "fr": "Participer"
+    },
+    {
+      "key": "text-13",
+      "label": "A — Resources",
+      "en": "Resources",
+      "fr": "Ressources"
+    },
+    {
+      "key": "text-14",
+      "label": "A — Become a Member",
+      "en": "Become a Member",
+      "fr": "Devenir membre"
+    },
+    {
+      "key": "text-15",
+      "label": "A — Contact Us",
+      "en": "Contact Us",
+      "fr": "Nous joindre"
+    },
+    {
+      "key": "text-16",
+      "label": "A — Home",
+      "en": "Home",
+      "fr": "Accueil"
+    },
+    {
+      "key": "text-17",
+      "label": "SPAN — Contact Us",
+      "en": "Contact Us",
+      "fr": "Nous joindre"
+    },
+    {
+      "key": "text-18",
+      "label": "P — LET’S CONNECT",
+      "en": "LET’S CONNECT",
+      "fr": "PRENONS CONTACT"
+    },
+    {
+      "key": "text-19",
+      "label": "H1 — Contact Us",
+      "en": "Contact Us",
+      "fr": "Nous joindre"
+    },
+    {
+      "key": "text-20",
+      "label": "P — Have a question, a partnership idea, or want to get involved? We’",
+      "en": "Have a question, a partnership idea, or want to get involved? We’d love to hear from you.",
+      "fr": "Une question, une idée de partenariat ou l’envie de participer? Écrivez-nous!"
+    },
+    {
+      "key": "text-21",
+      "label": "H2 — Send us a message",
+      "en": "Send us a message",
+      "fr": "Envoyez-nous un message"
+    },
+    {
+      "key": "text-22",
+      "label": "P — All fields are required.",
+      "en": "All fields are required.",
+      "fr": "Tous les champs sont obligatoires."
+    },
+    {
+      "key": "text-23",
+      "label": "LABEL — Name",
+      "en": "Name",
+      "fr": "Nom"
+    },
+    {
+      "key": "text-24",
+      "label": "LABEL — Email",
+      "en": "Email",
+      "fr": "Courriel"
+    },
+    {
+      "key": "text-25",
+      "label": "LABEL — Subject",
+      "en": "Subject",
+      "fr": "Sujet"
+    },
+    {
+      "key": "text-26",
+      "label": "LABEL — Message",
+      "en": "Message",
+      "fr": "Message"
+    },
+    {
+      "key": "text-27",
+      "label": "P — Your message will be sent to DYC / JSC through FormSubmit so our ",
+      "en": "Your message will be sent to DYC / JSC through FormSubmit so our team can reply. You may be asked to complete a spam check.",
+      "fr": "Votre message sera transmis à DYC / JSC par FormSubmit afin que notre équipe puisse vous répondre. Une vérification antipourriel pourrait être demandée."
+    },
+    {
+      "key": "text-28",
+      "label": "A — Read our Privacy Policy",
+      "en": "Read our Privacy Policy",
+      "fr": "Consultez notre politique de confidentialité"
+    },
+    {
+      "key": "text-29",
+      "label": "BUTTON — Send message",
+      "en": "Send message",
+      "fr": "Envoyer le message"
+    },
+    {
+      "key": "text-30",
+      "label": "P — By youth. For youth. About youth.",
+      "en": "By youth. For youth. About youth.",
+      "fr": "Par, pour et à propos des jeunes."
+    },
+    {
+      "key": "text-31",
+      "label": "SPAN — Operated under",
+      "en": "Operated under",
+      "fr": "Sous l’égide de"
+    },
+    {
+      "key": "text-32",
+      "label": "A — CAD-ASC",
+      "en": "CAD-ASC",
+      "fr": "l’ASC-CAD"
+    },
+    {
+      "key": "text-33",
+      "label": "SPAN — Charitable Registration Number: 108075003RR0001",
+      "en": "Charitable Registration Number: 108075003RR0001",
+      "fr": "Numéro d’enregistrement d’organisme de bienfaisance : 108075003RR0001"
+    },
+    {
+      "key": "text-34",
+      "label": "SPAN — © 2026 DYC / JSC. All rights reserved.",
+      "en": "© 2026 DYC / JSC. All rights reserved.",
+      "fr": "© 2026 DYC / JSC. Tous droits réservés."
+    },
+    {
+      "key": "text-35",
+      "label": "A — Terms and Conditions",
+      "en": "Terms and Conditions",
+      "fr": "Conditions d’utilisation"
+    },
+    {
+      "key": "text-36",
+      "label": "A — Privacy Policy",
+      "en": "Privacy Policy",
+      "fr": "Politique de confidentialité"
+    },
+    {
+      "key": "text-37",
+      "label": "A — Back to top",
+      "en": "Back to top",
+      "fr": "Retour en haut"
+    }
+  ]
+}
