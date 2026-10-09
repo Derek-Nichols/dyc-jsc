@@ -230,3 +230,32 @@ collections:
               - { label: Description (French), name: description_fr, widget: text, required: false }
               - { label: More information URL, name: url, widget: string, required: false }
               - { label: Visible, name: visible, widget: boolean, default: true }
+
+  - name: directory
+    label: Resource Directory
+    files:
+      - name: resources
+        label: Additional Resources
+        file: content/resources/entries.json
+        fields:
+          - label: Resources
+            name: entries
+            widget: list
+            summary: "{{fields.name}}"
+            fields:
+              - { label: Organization or service, name: name, widget: string }
+              - label: Region
+                name: region
+                widget: select
+                options:
+                  - { label: National, value: national }
+                  - { label: Atlantic, value: atlantic }
+                  - { label: Québec, value: quebec }
+                  - { label: Ontario, value: ontario }
+                  - { label: Prairies, value: prairies }
+                  - { label: British Columbia, value: british-columbia }
+                  - { label: Northern Canada, value: north }
+                  - { label: International, value: international }
+              - { label: Website or phone link, name: url, widget: string, required: false }
+              - { label: Contact information, name: contact, widget: string, required: false }
+              - { label: Visible, name: visible, widget: boolean, default: true }
