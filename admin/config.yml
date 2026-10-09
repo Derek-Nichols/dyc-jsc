@@ -24,3 +24,35 @@ collections:
       - { label: Image description, name: alt, widget: string, required: false }
       - { label: Display order, name: order, widget: number, value_type: int, default: 1 }
       - { label: Visible, name: visible, widget: boolean, default: true }
+
+  - name: pages
+    label: Website Pages
+    files:
+      - name: index
+        label: Homepage
+        file: content/pages/index.json
+        fields:
+          - label: Bilingual text
+            name: sections
+            widget: list
+            collapsed: true
+            summary: "{{fields.label}}"
+            fields:
+              - { label: Section key, name: key, widget: hidden }
+              - { label: Section, name: label, widget: string, required: false }
+              - { label: English, name: en, widget: text }
+              - { label: French, name: fr, widget: text }
+      - name: about
+        label: Who We Are
+        file: content/pages/about.json
+        fields:
+          - label: Bilingual text
+            name: sections
+            widget: list
+            collapsed: true
+            summary: "{{fields.label}}"
+            fields:
+              - { label: Section key, name: key, widget: hidden }
+              - { label: Section, name: label, widget: string, required: false }
+              - { label: English, name: en, widget: text }
+              - { label: French, name: fr, widget: text }
